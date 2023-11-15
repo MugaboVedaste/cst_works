@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int a, b, c;
+
+    // Input initial values
+    printf("Input the initial value of a: ");
+    scanf("%d", &a);
+
+    printf("Input the initial value of b: ");
+    scanf("%d", &b);
+
+    printf("Input the initial value of c: ");
+    scanf("%d", &c);
+
+    // Output original values
+    printf("The original value of a= %d\n", a);
+    printf("The original value of b= %d\n", b);
+    printf("The original value of c= %d\n", c);
+
+    // Update values using pre-increment
+    ++a;
+    ++b;
+    ++c;
+
+    // Output updated values
+    printf("The updated value of a= %d\n", a);
+    printf("The updated value of b= %d\n", b);
+    printf("The updated value of c= %d\n", c);
+
+    return 0;
+}
